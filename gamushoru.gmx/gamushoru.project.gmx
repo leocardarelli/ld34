@@ -281,11 +281,55 @@
     <extension index="0">extensions\Color Coding Files</extension>
   </NewExtensions>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_esteira</sprite>
+    <sprite>sprites\spr_char1</sprite>
+    <sprite>sprites\spr_tubo</sprite>
+    <sprite>sprites\spr_food</sprite>
+    <sprite>sprites\spr_vomit_bar</sprite>
+    <sprite>sprites\spr_roll</sprite>
+    <sprite>sprites\spr_placar</sprite>
+    <sprite>sprites\spr_cabine</sprite>
+    <sprite>sprites\spr_vomitspit</sprite>
+    <sprite>sprites\spr_lixo</sprite>
+    <sprite>sprites\spr_headfish</sprite>
+    <sprite>sprites\spr_spacebar</sprite>
+    <sprite>sprites\spr_button</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bg_start</background>
+    <background>background\bg_bg</background>
+    <background>background\bg_japan</background>
+  </backgrounds>
   <paths name="paths"/>
-  <objects name="objects"/>
-  <rooms name="rooms"/>
+  <objects name="objects">
+    <object>objects\obj_esteira_l</object>
+    <object>objects\obj_esteira_r</object>
+    <object>objects\obj_tubo</object>
+    <object>objects\obj_food</object>
+    <object>objects\obj_block</object>
+    <object>objects\obj_boca</object>
+    <object>objects\obj_boca_l</object>
+    <object>objects\obj_boca_r</object>
+    <object>objects\obj_global</object>
+    <object>objects\obj_bar</object>
+    <object>objects\obj_roll</object>
+    <object>objects\obj_placar</object>
+    <object>objects\obj_cabine</object>
+    <object>objects\obj_food_count</object>
+    <object>objects\obj_lixo</object>
+    <object>objects\obj_intro</object>
+    <object>objects\obj_char1</object>
+    <object>objects\obj_headfish</object>
+    <object>objects\obj_space</object>
+    <object>objects\obj_button</object>
+    <object>objects\obj_button_right</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room_start</room>
+    <room>rooms\room_select</room>
+    <room>rooms\room_showgame</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
