@@ -295,7 +295,6 @@
     <sprite>sprites\spr_headfish</sprite>
     <sprite>sprites\spr_spacebar</sprite>
     <sprite>sprites\spr_button</sprite>
-    <sprite>sprites\spr_test</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_start</background>
